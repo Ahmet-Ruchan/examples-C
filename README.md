@@ -6,4 +6,4 @@ Girilen katsayılar ile iki doğrunun birbirine göre olan durumlarını hesapla
 -Paralel doğrular için aralarındaki mesafeyi hesaplama,
 -Kesişen doğrular için kesişim noktalarını ve aralarındaki kesişim açısını hesaplama,
 -Dik doğrular için kesişim noktalarını ve aralarındaki kesişim açısını hesaplama,
--Çakışan doğruları hesaplama.
+-Çakışan doğruları hesaplama..
