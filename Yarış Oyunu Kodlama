@@ -6,7 +6,7 @@
 
 
 
-//YARIÞ ÖDEVÝ
+//YARIÅž Ã–DEVÄ°
 
 main() {
 setlocale(LC_ALL,"Turkish");
@@ -22,7 +22,7 @@ int baslangicF=0;
 
 while((doganSLXPuan<=100) || (ferrariPuan<=100)){
 		sayi = rand() % 10+1;
-		printf("Gelen sayý: %d \n", sayi);	
+		printf("Gelen sayÄ±: %d \n", sayi);	
 		sleep(1);
 		system("CLS");
 					
@@ -58,7 +58,7 @@ while((doganSLXPuan<=100) || (ferrariPuan<=100)){
 			}
 		}
 
-		printf("DoðanSLX: %d \n",doganSLXPuan);
+		printf("DoÄŸanSLX: %d \n",doganSLXPuan);
 		printf("Ferrari: %d \n\n ",ferrariPuan);
 		
 		
@@ -117,7 +117,7 @@ while((doganSLXPuan<=100) || (ferrariPuan<=100)){
 			printf("Ferrari KAZANDI!");
 		}
 		else{
-			printf("DoðanSLX KAZANDI!");
+			printf("DoÄŸanSLX KAZANDI!");
 		}
 		break;
 		
