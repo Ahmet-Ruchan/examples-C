@@ -6,7 +6,7 @@
 
 
 
-//YARIŞ ÖDEVİ
+
 
 main() {
 setlocale(LC_ALL,"Turkish");
