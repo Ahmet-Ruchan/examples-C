@@ -7,7 +7,7 @@
 
 
 
-// TOP ZIPLAMA ÖDEVİ
+// TOP ZIPLAMA Ã–DEVÃ
 
 
 main() {
@@ -30,7 +30,7 @@ char topturu;
 		
 		
 		
-printf("Top türünü giriniz (B,F,V) : \n");
+printf("Top tÃ¼rÃ¼nÃ¼ giriniz (B,F,V) : \n");
 scanf("%c",&topturu);
 		
 
@@ -38,29 +38,29 @@ scanf("%c",&topturu);
 
 while(dongu != 1){
 	if('B'== topturu){
-		printf("Basketbol topunu seçtiniz.\n");
+		printf("Basketbol topunu seÃ§tiniz.\n");
 		katsayi = B;
 		dongu=1;		
 	}
 	else if('F'== topturu){
-		printf("Voleybol topunu seçtiniz. \n");
+		printf("Voleybol topunu seÃ§tiniz. \n");
 		katsayi =F;
 		dongu=1;
 	}
 	else if('V'==topturu){
-		printf("Voleybol topunu seçtiniz. \n");
+		printf("Voleybol topunu seÃ§tiniz. \n");
 		katsayi= V;
 		dongu=1;
 	}
 	else{
-		printf("Lütfen sadece parantez içerisindeki karakterlerden birini seçiniz \n");
+		printf("LÃ¼tfen sadece parantez iÃ§erisindeki karakterlerden birini seÃ§iniz \n");
 		scanf("%s",&topturu);
 	}
 }
 
 
 
-printf("Topun bırakılacağı ilk yüksekliği giriniz (m): \n");
+printf("Topun bÃ½rakÃ½lacaÄ‘Ã½ ilk yÃ¼ksekliÄ‘i giriniz (m): \n");
 scanf("%f",&yukseklik);
 
 
@@ -85,8 +85,8 @@ else if(topturu=='F'){
 	
 }
 
-printf("Alınan yol: %2.2f metre \n",alinanyol);
-printf("Topun zıplama sayısı: %d \n",ziplamasayisi);
+printf("AlÃ½nan yol: %2.2f metre \n",alinanyol);
+printf("Topun zÃ½plama sayÃ½sÃ½: %d \n",ziplamasayisi);
 
 
 }
