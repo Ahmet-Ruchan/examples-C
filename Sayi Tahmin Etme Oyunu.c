@@ -8,8 +8,8 @@
 
 setlocale(LC_ALL,"Turkish");
 
-srand(time(NULL));  // üretilen sayının rastgele değerlerde olmasını sağlar
-int sayi = rand() % 100; // 1 ile 100 arasında bir sayı üretmeyi sağlayan kod
+srand(time(NULL));  // Ã¼retilen sayÄ±nÄ±n rastgele deÄŸerlerde olmasÄ±nÄ± saÄŸlar
+int sayi = rand() % 100; // 1 ile 100 arasÄ±nda bir sayÄ± Ã¼retmeyi saÄŸlayan kod
 
 int tahmin;
 int denemeHakki = 1;
@@ -25,11 +25,11 @@ while(bulundu==false){
 		bulundu=true;
 	}
 	else if(tahmin<sayi){
-		printf("Daha büyük bir sayı giriniz... \n");
+		printf("Daha bÃ¼yÃ¼k bir sayÄ± giriniz... \n");
 		denemeHakki++;
 	}
 	else{
-		printf("Daha küçük bir sayı giriniz... \n");
+		printf("Daha kÃ¼Ã§Ã¼k bir sayÄ± giriniz... \n");
 		denemeHakki++;
 	}
 	}
