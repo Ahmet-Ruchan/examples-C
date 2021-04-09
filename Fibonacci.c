@@ -8,10 +8,10 @@ unsigned long long int fibonacci(unsigned int n);
  main() {
 setlocale(LC_ALL,"Turkish");
 	
-unsigned long long int result; //fibonacci değeri, sonucu
-unsigned int number; // kullanıcı tarafından girilen sayı
+unsigned long long int result; //fibonacci deÃ°eri, sonucu
+unsigned int number; // kullanÃ½cÃ½ tarafÃ½ndan girilen sayÃ½
 
-printf("Bir tam sayı giriniz: \n");
+printf("Bir tam sayÃ½ giriniz: \n");
 scanf("%u",&number);
 
 result = fibonacci(number);
@@ -20,7 +20,7 @@ printf("Fibonacci(%u) = %11u \n",number, result); //ilk %u=number, ikinci %11u=r
 	
 }
 
-//fibonacci fonksiyonunu özyinelemeli olarak tanımlayacağız
+//fibonacci fonksiyonunu Ã¶zyinelemeli olarak tanÃ½mlayacaÃ°Ã½z
 
 unsigned long long int fibonacci(unsigned int n){
 	
