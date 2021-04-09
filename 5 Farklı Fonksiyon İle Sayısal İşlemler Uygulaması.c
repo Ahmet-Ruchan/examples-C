@@ -34,20 +34,20 @@ setlocale(LC_ALL,"Turkish");
 	}
 
 
-printf("Oluşan diziniz : \t");
+printf("OluÃ¾an diziniz : \t");
 diziyiYazdir();
 printf("\n\n");
 
  
 
 
-printf("1 - Yazdır \n");
-printf("2 - Tersten Yazdır \n");
-printf("3 - Max-Min Yazdır \n");
-printf("4 - Sırala \n");
-printf("5 - İstatistik Göster \n \n");
+printf("1 - YazdÃ½r \n");
+printf("2 - Tersten YazdÃ½r \n");
+printf("3 - Max-Min YazdÃ½r \n");
+printf("4 - SÃ½rala \n");
+printf("5 - Ãstatistik GÃ¶ster \n \n");
 
-printf("SEÇİMİNİZ:");
+printf("SEÃ‡ÃMÃNÃZ:");
 scanf("%d",&secim);
 
 if(secim==1){
@@ -76,8 +76,8 @@ else if(secim==5){
 
 printf("\n\n");
 
-printf("******************************** Bir öceki fonksiyonun cevabı üst kısımda yer almaktadır ******************************* \n");
-printf("***** Programdan Çıkmadan Diğer Fonksiyonları Kullanabilmeniz İçin Dizi Yenilendi. Keşfetmeye Devam Edebilirsiniz *****");
+printf("******************************** Bir Ã¶ceki fonksiyonun cevabÃ½ Ã¼st kÃ½sÃ½mda yer almaktadÃ½r ******************************* \n");
+printf("***** Programdan Ã‡Ã½kmadan DiÃ°er FonksiyonlarÃ½ Kullanabilmeniz ÃÃ§in Dizi Yenilendi. KeÃ¾fetmeye Devam Edebilirsiniz *****");
 
 printf("\n\n\n\n");
 
@@ -120,7 +120,7 @@ int diziyiTerstenYazdir(){
 
 void maxMinYazdir(char c){
 	setlocale(LC_ALL,"Turkish");
-	printf("Seçiminiz: (K)küçük / (B)büyük \n");
+	printf("SeÃ§iminiz: (K)kÃ¼Ã§Ã¼k / (B)bÃ¼yÃ¼k \n");
 	scanf(" %c",&c);
 	
 	
@@ -131,7 +131,7 @@ void maxMinYazdir(char c){
 		for(int i=0; i<10; i++){
 			if(dizi[i]>max) max = dizi[i];
 		}
-		printf("Maximum Değer : %d \n",max);
+		printf("Maximum DeÃ°er : %d \n",max);
 	}
 	
 	if(c=='K'){
@@ -140,7 +140,7 @@ void maxMinYazdir(char c){
 		for(int i=0; i<10; i++){
 			if(dizi[i]<min) min = dizi[i];
 		}
-		printf("Minimum Değer : %d \n",min);
+		printf("Minimum DeÃ°er : %d \n",min);
 	}	
 }
 
@@ -148,7 +148,7 @@ void maxMinYazdir(char c){
 
 void sirala(char s){
 	setlocale(LC_ALL,"Turkish");
-	printf("Seçiminiz: (K)küçük / (B)büyük \n");
+	printf("SeÃ§iminiz: (K)kÃ¼Ã§Ã¼k / (B)bÃ¼yÃ¼k \n");
 	scanf(" %c",&s);
 	
 	if(s=='B'){
@@ -165,12 +165,12 @@ void sirala(char s){
                   }
             }
       
-    printf("\n Büyükten Küçüğe Sıralama: ");
+    printf("\n BÃ¼yÃ¼kten KÃ¼Ã§Ã¼Ã°e SÃ½ralama: ");
       
     for(i = 0;i <10; i++){
         printf("%d ",dizi[i]);
       }
-    printf("\n >>> Devam etmek için *ENTER* a basın. <<<");  
+    printf("\n >>> Devam etmek iÃ§in *ENTER* a basÃ½n. <<<");  
     getch();            
 }
 	
@@ -188,12 +188,12 @@ void sirala(char s){
                   }
             }
       
-    printf("\n Küçükten Büyüğe Sıralama: ");
+    printf("\n KÃ¼Ã§Ã¼kten BÃ¼yÃ¼Ã°e SÃ½ralama: ");
       
     for(i = 0;i <10; i++){
         printf("%d ",dizi[i]);
       }
-     printf("\n >>> Devam etmek için *ENTER* a basın. <<<"); 
+     printf("\n >>> Devam etmek iÃ§in *ENTER* a basÃ½n. <<<"); 
     getch();            	
 	}	
 }
