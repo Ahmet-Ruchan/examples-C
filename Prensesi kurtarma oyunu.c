@@ -32,7 +32,7 @@ bool anahtar = false;
 baslangic(){
 	
 	system("COLOR 07");
-	printf("Doğu yönünde büyük bir şatonun önündesin. İçeri girmen gerekiyor yoksa peşindekiler seni yakalayacaklar.\n");
+	printf("DoÄŸu yÃ¶nÃ¼nde bÃ¼yÃ¼k bir ÅŸatonun Ã¶nÃ¼ndesin. Ä°Ã§eri girmen gerekiyor yoksa peÅŸindekiler seni yakalayacaklar.\n");
 	gets(komut1);
 	
 	while(dongu != 1){
@@ -41,7 +41,7 @@ baslangic(){
 			dongu = 1;
 		}
 		else{
-			printf("Geçersiz Komut \n");
+			printf("GeÃ§ersiz Komut \n");
 			gets(komut1);	
 		}
 		
@@ -52,7 +52,7 @@ baslangic(){
 oda1(){
 	system("CLS");
 	system("COLOR 4F");
-	printf("Sonunda içeridesin. Yemek masası üzerinden bir şeyler yiyebilirsin. \n");
+	printf("Sonunda iÃ§eridesin. Yemek masasÄ± Ã¼zerinden bir ÅŸeyler yiyebilirsin. \n");
 	gets(komut2);
 	
 	while(dongu != 1){
@@ -73,12 +73,12 @@ oda1(){
 			dongu=1;
 		}
 		else if(!(strcmp(komut2, "YEMEK YE"))){
-			printf("Karnını doldurdun ama bizi bekleyen bir prenses var yola devam. Şimdi ne yapacaksın? \n");
+			printf("KarnÄ±nÄ± doldurdun ama bizi bekleyen bir prenses var yola devam. Åimdi ne yapacaksÄ±n? \n");
 			
 			gets(komut2);
 		}
 		else{
-			printf("Geçersiz Komut \n");
+			printf("GeÃ§ersiz Komut \n");
 			gets(komut2);	
 		}
 	}
@@ -88,7 +88,7 @@ oda1(){
 oda2(){
 	system("CLS");
 	system("COLOR FD");
-	printf("Khaleesi’nin Dracarys sesini duymanla beraber ejderha ateşi altında yanarak öldün… \n >>> Lütfen bekle, öldüğün için 7 saniye içerisinde başa döneceksin <<< \n");
+	printf("Khaleesiâ€™nin Dracarys sesini duymanla beraber ejderha ateÅŸi altÄ±nda yanarak Ã¶ldÃ¼nâ€¦ \n >>> LÃ¼tfen bekle, Ã¶ldÃ¼ÄŸÃ¼n iÃ§in 7 saniye iÃ§erisinde baÅŸa dÃ¶neceksin <<< \n");
 	sleep(7);
 	system("CLS");
 	
@@ -99,7 +99,7 @@ oda2(){
 oda3(){
 	system("CLS");
 	system("COLOR B0");
-	printf("Küçük bir odadasın. Ortada bir yatak var. Yorgunsan dinlenebilirsin.\n");
+	printf("KÃ¼Ã§Ã¼k bir odadasÄ±n. Ortada bir yatak var. Yorgunsan dinlenebilirsin.\n");
 	gets(komut3);
 	
 	while(dongu != 1){
@@ -116,12 +116,12 @@ oda3(){
 			dongu=1;
 		}
 		else if(!(strcmp(komut3, "DINLEN"))){ 
-			printf("Yeterince dinlendin, işe koyul ve prensesi kurtar. Şimdi ne yapacaksın ?\n");
+			printf("Yeterince dinlendin, iÅŸe koyul ve prensesi kurtar. Åimdi ne yapacaksÄ±n ?\n");
 			
 			gets(komut3);
 		}
 		else{
-			printf("Geçersiz Komut \n");
+			printf("GeÃ§ersiz Komut \n");
 			gets(komut3);	
 		}
 	}
@@ -132,7 +132,7 @@ oda3(){
 oda4(){
 	system("CLS");
 	system("COLOR F2");
-	printf("Tıssss.... Bir piton yılanı tarafından sıkılarak öldürüldün… Boğulurken keşke C yerine Python mu öğrenseydim diye kafandan geçirdin...\n >>> Lütfen bekle, öldüğün için 10 saniye içerisinde başa döneceksin <<<\n");
+	printf("TÄ±ssss.... Bir piton yÄ±lanÄ± tarafÄ±ndan sÄ±kÄ±larak Ã¶ldÃ¼rÃ¼ldÃ¼nâ€¦ BoÄŸulurken keÅŸke C yerine Python mu Ã¶ÄŸrenseydim diye kafandan geÃ§irdin...\n >>> LÃ¼tfen bekle, Ã¶ldÃ¼ÄŸÃ¼n iÃ§in 10 saniye iÃ§erisinde baÅŸa dÃ¶neceksin <<<\n");
 	sleep(10);
 	system("CLS");
 	
@@ -143,7 +143,7 @@ oda4(){
 oda5(){
 	system("CLS");
 	system("COLOR 60");
-	printf("Çok karanlık bir odadasın. Sadece parlayan altın bir anahtar var.\n");
+	printf("Ã‡ok karanlÄ±k bir odadasÄ±n. Sadece parlayan altÄ±n bir anahtar var.\n");
 	gets(komut4);
 	
 	while(dongu != 1){
@@ -152,13 +152,13 @@ oda5(){
 			dongu=1;
 		}
 		else if(!(strcmp(komut4, "ANAHTAR AL"))){ 
-			printf("Anahtarı aldın şimdi prensesin odasına gitme vakti. Şimdi ne yapacaksın? \n");
+			printf("AnahtarÄ± aldÄ±n ÅŸimdi prensesin odasÄ±na gitme vakti. Åimdi ne yapacaksÄ±n? \n");
 			anahtar = true;
 			gets(komut4);
 			
 		}
 		else{
-			printf("Geçersiz Komut \n");
+			printf("GeÃ§ersiz Komut \n");
 			gets(komut4);
 		}
    }
@@ -168,7 +168,7 @@ oda5(){
 oda6(){
 	system("CLS");
 	system("COLOR F5");
-	printf("Bilgisayar tarafından yönetilen odadasın. 0 ile 9 arasında bir sayı tutmuş. Üç denemede bulmalısın.\n\n");
+	printf("Bilgisayar tarafÄ±ndan yÃ¶netilen odadasÄ±n. 0 ile 9 arasÄ±nda bir sayÄ± tutmuÅŸ. ÃœÃ§ denemede bulmalÄ±sÄ±n.\n\n");
 	
 	int tahmin;
 	int tahminsayisi;
@@ -181,19 +181,19 @@ oda6(){
 		scanf("%d",&tahmin);
 		
 		if((anahtar == false) && (tahmin == sayi)){
-			printf("Doğru sayıyı buldun ancak kilitli kapıyı açacak anahtar yanında değil… odaya zehirli bir gaz dolmaya başladı ve öldün… \n >>> Lütfen bekle, öldüğün için 10 saniye içerisinde başa döneceksin <<<\n\n");
+			printf("DoÄŸru sayÄ±yÄ± buldun ancak kilitli kapÄ±yÄ± aÃ§acak anahtar yanÄ±nda deÄŸilâ€¦ odaya zehirli bir gaz dolmaya baÅŸladÄ± ve Ã¶ldÃ¼nâ€¦ \n >>> LÃ¼tfen bekle, Ã¶ldÃ¼ÄŸÃ¼n iÃ§in 10 saniye iÃ§erisinde baÅŸa dÃ¶neceksin <<<\n\n");
 			sleep(10);
 			system("CLS");
 			baslangic();
 			
 		}
 		else if((anahtar == true) && (tahmin == sayi)){
-			printf("Tebrikler… doğru sayıyı buldun ve kilitli kapıyı açarak prensesi kurtardın…\n");
+			printf("Tebriklerâ€¦ doÄŸru sayÄ±yÄ± buldun ve kilitli kapÄ±yÄ± aÃ§arak prensesi kurtardÄ±nâ€¦\n");
 			break;
 			
 		}
 		else if(tahminsayisi == 1){
-			printf("Üç denemede bulamadın.. odaya zehirli bir gaz dolmaya başladı ve öldün…\n >>> Lütfen bekle, öldüğün için 10 saniye içerisinde başa döneceksin <<<\n \a");
+			printf("ÃœÃ§ denemede bulamadÄ±n.. odaya zehirli bir gaz dolmaya baÅŸladÄ± ve Ã¶ldÃ¼nâ€¦\n >>> LÃ¼tfen bekle, Ã¶ldÃ¼ÄŸÃ¼n iÃ§in 10 saniye iÃ§erisinde baÅŸa dÃ¶neceksin <<<\n \a");
 			sleep(10);
 			system("CLS");
 			baslangic();
