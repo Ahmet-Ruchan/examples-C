@@ -3,8 +3,8 @@
 
 int * array = NULL;
 int * array2 = NULL;
-int rare = 0; //sıra
-int head = 0; //sırabaşı
+int rare = 0;
+int head = 0;
 int size = 2;
 
 static void fixQueue()
