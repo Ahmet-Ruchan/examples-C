@@ -22,6 +22,8 @@ static void fixQueue() // updates the size of the array for dynamic array struct
 	}
 	rare -= head;
 	head = 0;
+
+	return;
 }
 
 static void display()
@@ -88,6 +90,8 @@ static void enqueue(int a)
 		array = array2;
 	}
 	array[rare++] = a;
+
+	return;
 }
 
 int main()
@@ -98,28 +102,24 @@ int main()
 	{
 		enqueue(i * 10);
 	}
-
 	display();
 
 	for(i = 0; i < 13; i++)
 	{
 		printf("Dequeue -> %d\n", dequeue());
 	}
-
 	display();
 
 	for(i = 0; i < 20; i++)
 	{
 		enqueue(i * 10);
 	}
-
 	display();
 
 	for(i = 0; i < 30; i++)
 	{
 		printf("Dequeue -> %d\n", dequeue());
 	}
-
 	display();
 
 	return 0;
