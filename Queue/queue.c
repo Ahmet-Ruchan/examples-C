@@ -7,7 +7,7 @@ int rare = 0;
 int head = 0;
 int size = 2;
 
-static void fixQueue()
+static void fixQueue() // updates the size of the array for dynamic array structure
 {
 	int i;
 
